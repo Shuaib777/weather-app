@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(26, 185, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: white;
+}
+
+.card {
+    background: linear-gradient(to right, #00feba, #5b548a);
+    box-shadow: 10px 10px 20px ;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.search img {
+    height: 20px;
+}
+
+.search button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7);
+    transition: opacity 0.15s;
+}
+
+.search button:hover {
+    opacity: 0.8;
+}
+
+.search button:active {
+    opacity: 0.6;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.temp{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.city{
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.details {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.col p {
+    font-size: 20px;
+    margin: 3px;
+}
+
