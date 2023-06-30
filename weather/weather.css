@@ -12,11 +12,46 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
 }
 
 p {
     color: white;
 }
+
+.nav-head {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    display: flex;
+    background: linear-gradient(to right, #00feba, #95a1b5);
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ffff1c ;
+    box-shadow: 10px 10px 20px ;
+    border-radius: 4px;
+}
+
+.nav-head a {
+    color: rgb(84, 86, 137);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
 
 .card {
     background: linear-gradient(to right, #00feba, #5b548a);
